@@ -3,7 +3,6 @@ import { Navbar } from "./components/Navbar";
 import { Forms } from "./pages/Forms";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-
 function App() {
   return (
     <Router>
@@ -14,7 +13,7 @@ function App() {
             <Content/>
           </Route>
           <Route path='/forms'>
-            <Forms/>
+            <Forms />
           </Route>
         </Switch>
       </div>
